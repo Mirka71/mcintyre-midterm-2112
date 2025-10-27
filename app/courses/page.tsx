@@ -7,3 +7,7 @@ export default function Courses() {
         </article>
     )
 }
+
+// 8. create array
+
+const course: string[] = [COMP2112React.js, ]

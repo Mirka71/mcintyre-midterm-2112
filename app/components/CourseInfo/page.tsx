@@ -1,12 +1,12 @@
 // 7. made CourseInfo component and included an courseName string prop.
 interface courseName {
     // set name value as a string type
-    name: string;
+    Name: string;
 }
 
-export default function course: React.FC<courseName> => ({name}) => {
+export default function course: React.FC<courseName> => ({Name}) => {
 
     return(
-        <p>My course is {name}</p>
+        <p>My course is {Name}</p>
     );
 }
